@@ -11,7 +11,7 @@ install_apps() {
         "localsend:LocalSend"
         "telegram:Telegram"
         "orion:Orion Browser"
-        "google-chrome: Google Browser"
+        "google-chrome:Google Browser"
         "orbstack:OrbStack"
         "sublime-text:Sublime Text"
         "zed:Zed Editor"
@@ -28,7 +28,8 @@ install_apps() {
         "cloudflare-warp:Cloudflare WARP"
         "tunnelblick:Tunnelblick"
         "kap:Kap Screen Recorder"
-        "responsively: Responsively"
+        "responsively:Responsively"
+        "figma:Figma App"
     )
 
     for app in "${apps[@]}"; do
