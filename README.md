@@ -1,4 +1,10 @@
-# macOS Development Environment Setup
+<h1 id="screenshot">Screenshot</h1>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e246c8d9-6cd2-4035-8a21-a03f091dee9b" width="1000" height="600" alt="screenshot">
+</p>
+
+# dev setup macOS
 
 A comprehensive, modular automated setup script for macOS that helps install and configure your complete development environment with a single command.
 
@@ -28,7 +34,7 @@ A comprehensive, modular automated setup script for macOS that helps install and
 ## Project Structure
 
 ```
-setup-macos/
+dev-setup-macos/
 ├── setup.sh              # Main script with interactive menu
 ├── lib/                  # Modular components
 │   ├── colors.sh         # Color definitions for output
@@ -51,8 +57,8 @@ setup-macos/
 ## Installation
 
 ```bash
-git clone https://github.com/Victor-Zarzar/script-setup-macOS
-cd script-setup-macOS
+git clone https://github.com/Victor-Zarzar/dev-setup-macOS
+cd dev-setup-macOS
 chmod +x setup.sh
 ./setup.sh
 ```
@@ -175,13 +181,13 @@ local tools=(
 Log files are automatically created with timestamp:
 
 ```
-~/macos_setup_YYYYMMDD_HHMMSS.log
+~/dev_setup_macOS_YYYYMMDD_HHMMSS.log
 ```
 
 View the log from the menu (option 14) or manually:
 
 ```bash
-cat ~/macos_setup_*.log
+cat ~/dev_setup_macOS_*.log
 ```
 
 ## Directory Structure
@@ -241,7 +247,7 @@ If not installed, the script will attempt automatic installation.
 **View detailed errors:**
 
 ```bash
-cat ~/macos_setup_*.log
+cat ~/dev_setup_macOS_*.log
 ```
 
 ## Advantages of Modular Architecture

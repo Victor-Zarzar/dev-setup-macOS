@@ -5,10 +5,36 @@
 # ============================================
 
 print_header() {
-    echo -e "${CYAN}╔════════════════════════════════════════╗${NC}"
-    echo -e "${CYAN}║   macOS Development Environment        ║${NC}"
-    echo -e "${CYAN}║   Setup & Configuration                ║${NC}"
-    echo -e "${CYAN}╚════════════════════════════════════════╝${NC}"
+    local free_space
+    free_space=$(df -h / | tail -1 | awk '{print $4}')
+    local current_date
+    current_date=$(date '+%Y-%m-%d %H:%M:%S')
+    local username
+    username=$(whoami)
+    local macos_version
+    macos_version=$(sw_vers -productVersion)
+
+    echo -e "${GREEN}"
+    echo '  ███████╗███████╗████████╗██╗   ██╗██████╗ '
+    echo '  ██╔════╝██╔════╝╚══██╔══╝██║   ██║██╔══██╗'
+    echo '  ███████╗█████╗     ██║   ██║   ██║██████╔╝'
+    echo '  ╚════██║██╔══╝     ██║   ██║   ██║██╔═══╝ '
+    echo '  ███████║███████╗   ██║   ╚██████╔╝██║     '
+    echo '  ╚══════╝╚══════╝   ╚═╝    ╚═════╝ ╚═╝     '
+    echo ''
+    echo '  ███╗   ███╗ █████╗  ██████╗ ██████╗ ███████╗'
+    echo '  ████╗ ████║██╔══██╗██╔════╝██╔═══██╗██╔════╝'
+    echo '  ██╔████╔██║███████║██║     ██║   ██║███████╗'
+    echo '  ██║╚██╔╝██║██╔══██║██║     ██║   ██║╚════██║'
+    echo '  ██║ ╚═╝ ██║██║  ██║╚██████╗╚██████╔╝███████║'
+    echo '  ╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚══════╝'
+    echo -e "${NC}"
+    echo -e "  ${GREEN}──────────────────────────────────────────────────────────${NC}"
+    echo -e "  ${GREEN}✦ User:${NC}        $username"
+    echo -e "  ${GREEN}✦ macOS:${NC}       $macos_version"
+    echo -e "  ${GREEN}✦ Free Space:${NC}  $free_space"
+    echo -e "  ${GREEN}✦ Date:${NC}        $current_date"
+    echo -e "  ${GREEN}──────────────────────────────────────────────────────────${NC}"
     echo ""
 }
 

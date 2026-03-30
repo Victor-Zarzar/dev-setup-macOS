@@ -23,7 +23,7 @@ source "$LIB_DIR/flutter-tools.sh"
 source "$LIB_DIR/git-config.sh"
 source "$LIB_DIR/xcode-config.sh"
 
-LOG_FILE="$HOME/macos_setup_$(date +%Y%m%d_%H%M%S).log"
+LOG_FILE="$HOME/dev_setup_macOS_$(date +%Y%m%d_%H%M%S).log"
 TOTAL_INSTALLED=0
 
 # ============================================
@@ -33,23 +33,25 @@ TOTAL_INSTALLED=0
 show_menu() {
     clear
     print_header
-    echo "1)  Run complete setup"
-    echo "2)  Check prerequisites"
-    echo "3)  Install Homebrew only"
-    echo "4)  Setup directories"
-    echo "5)  Install fonts"
-    echo "6)  Install shell tools"
-    echo "7)  Install databases"
-    echo "8)  Install applications"
-    echo "9)  Install development tools"
-    echo "10) Install Python tools"
-    echo "11) Install Flutter tools"
-    echo "12) Configure Git"
-    echo "13) Configure Xcode"
-    echo "14) View installation log"
-    echo "0)  Exit"
+    echo -e "  ${PURPLE}Available Options:${NC}"
     echo ""
-    echo -n "Choose an option: "
+    echo -e "  ${GREEN}1)${NC}  Run complete setup"
+    echo -e "  ${GREEN}2)${NC}  Check prerequisites (Xcode License, Command Line)"
+    echo -e "  ${GREEN}3)${NC}  Install Homebrew only"
+    echo -e "  ${GREEN}4)${NC}  Setup directories"
+    echo -e "  ${GREEN}5)${NC}  Install fonts (Nerd Fonts)"
+    echo -e "  ${GREEN}6)${NC}  Install shell tools (Starship, Iterm2, Eza, Zoxide...)"
+    echo -e "  ${GREEN}7)${NC}  Install databases (SQlite, Redis, MySQL)"
+    echo -e "  ${GREEN}8)${NC}  Install applications (Localsend, Orion, Zed, Notion...)"
+    echo -e "  ${GREEN}9)${NC}  Install development tools (Git, Nvm, Nmap, Mackup, Mas, OpenJDK21...)"
+    echo -e "  ${GREEN}10)${NC} Install Python tools (Pyenv, VirtualEnv)"
+    echo -e "  ${GREEN}11)${NC} Install Flutter tools (FVM)"
+    echo -e "  ${GREEN}12)${NC} Configure Git"
+    echo -e "  ${GREEN}13)${NC} Configure Xcode"
+    echo -e "  ${GREEN}14)${NC} View installation log"
+    echo -e "  ${GREEN}0)${NC}  Exit"
+    echo ""
+    echo -ne "  ${CYAN}→ Choose an option: ${NC}"
 }
 
 run_full_setup() {
