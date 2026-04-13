@@ -20,7 +20,6 @@ install_apps() {
         "notion:Notion"
         "spotify:Spotify"
         "onlyoffice:OnlyOffice"
-        "omnidisksweeper:OmniDiskSweeper"
         "protonvpn:ProtonVPN"
         "crossover:CrossOver"
         "macs-fan-control:Macs Fan Control"
@@ -30,6 +29,9 @@ install_apps() {
         "kap:Kap Screen Recorder"
         "responsively:Responsively"
         "figma:Figma App"
+        "imagemagick:ImageMagick"
+        "the-unarchiver:The Unarchiver"
+        "balenaetcher:BalenaEtcher"
     )
 
     for app in "${apps[@]}"; do
