@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.2.0](https://github.com/Victor-Zarzar/dev-setup-macOS/compare/v1.1.0...v1.2.0) (2026-04-13)
+
+
+### Features
+
+* add new apps. ([5020643](https://github.com/Victor-Zarzar/dev-setup-macOS/commit/502064311826511e1c94cc5b953339704fb3c667))
+* add new apps. ([5020643](https://github.com/Victor-Zarzar/dev-setup-macOS/commit/502064311826511e1c94cc5b953339704fb3c667))
+* add new apps. ([ab61d06](https://github.com/Victor-Zarzar/dev-setup-macOS/commit/ab61d066d3952a8b2cf68abb54cf3b4e66eab03c))
+
 ## [1.1.0](https://github.com/Victor-Zarzar/dev-setup-macOS/compare/v1.0.0...v1.1.0) (2026-03-30)
 
 
