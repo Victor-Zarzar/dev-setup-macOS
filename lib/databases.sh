@@ -11,6 +11,8 @@ install_databases() {
         "sqlite:SQLite"
         "mysql:MySQL"
         "redis:Redis"
+        "supabase:Supabase"
+        "firebase-cli:Firebase"
     )
 
     for db in "${databases[@]}"; do

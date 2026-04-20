@@ -13,7 +13,7 @@ A comprehensive, modular automated setup script for macOS that helps install and
 - **Modular Architecture**: Clean, organized code split into focused modules
 - **Homebrew Installation**: Automatic Homebrew installation and configuration
 - **Shell Tools**: Starship, Zsh autosuggestions, Eza, Zoxide, Bat
-- **Databases**: SQLite, MySQL, Redis
+- **Databases**: SQLite, MySQL, Redis, Supabase, Firebase
 - **Development Tools**: Git, Node (NVM), PNPM, Bun, CocoaPods, Nginx, OpenJDK
 - **Python Environment**: Pyenv, Virtualenv
 - **Flutter Tools**: FVM (Flutter Version Manager)

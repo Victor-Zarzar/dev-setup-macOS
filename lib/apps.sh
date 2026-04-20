@@ -29,7 +29,6 @@ install_apps() {
         "kap:Kap Screen Recorder"
         "responsively:Responsively"
         "figma:Figma App"
-        "imagemagick:ImageMagick"
         "the-unarchiver:The Unarchiver"
         "balenaetcher:BalenaEtcher"
     )

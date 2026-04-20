@@ -41,7 +41,7 @@ show_menu() {
     echo -e "  ${GREEN}4)${NC}  Setup directories"
     echo -e "  ${GREEN}5)${NC}  Install fonts (Nerd Fonts)"
     echo -e "  ${GREEN}6)${NC}  Install shell tools (Starship, Iterm2, Eza, Zoxide...)"
-    echo -e "  ${GREEN}7)${NC}  Install databases (SQlite, Redis, MySQL)"
+    echo -e "  ${GREEN}7)${NC}  Install databases (SQlite, Redis, MySQL, Supabase, Firebase)"
     echo -e "  ${GREEN}8)${NC}  Install applications (Localsend, Orion, Zed, Notion...)"
     echo -e "  ${GREEN}9)${NC}  Install development tools (Git, Nvm, Nmap, Mackup, Mas, OpenJDK21...)"
     echo -e "  ${GREEN}10)${NC} Install Python tools (Pyenv, VirtualEnv)"
