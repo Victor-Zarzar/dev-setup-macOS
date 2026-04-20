@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/Victor-Zarzar/dev-setup-macOS/compare/v1.2.0...v1.3.0) (2026-04-20)
+
+
+### Features
+
+* add supabase and firebase in database.sh ([b15a175](https://github.com/Victor-Zarzar/dev-setup-macOS/commit/b15a175869ebe7d980fd1aa6a6a9e002c3dbd241))
+
 ## [1.2.0](https://github.com/Victor-Zarzar/dev-setup-macOS/compare/v1.1.0...v1.2.0) (2026-04-13)
 
 
