@@ -13,7 +13,7 @@ A comprehensive, modular automated setup script for macOS that helps install and
 - **Modular Architecture**: Clean, organized code split into focused modules
 - **Homebrew Installation**: Automatic Homebrew installation and configuration
 - **Shell Tools**: Starship, Zsh autosuggestions, Eza, Zoxide, Bat
-- **Databases**: SQLite, MySQL, Redis, Supabase, Firebase
+- **Databases**: SQLite, MySQL, PostgreSQL, Redis, Supabase, Firebase
 - **Development Tools**: Git, Node (NVM), PNPM, Bun, CocoaPods, Nginx, OpenJDK
 - **Python Environment**: Pyenv, Virtualenv
 - **Flutter Tools**: FVM (Flutter Version Manager)
@@ -94,9 +94,12 @@ The script will display an interactive menu with the following options:
 
 ### Databases
 
-- **SQLite**: Lightweight database
-- **MySQL**: Relational database
-- **Redis**: In-memory data store
+- **SQLite**: Lightweight, file-based, serverless database
+- **MySQL**: Open-source relational database for web apps
+- **Redis**: In-memory store for caching and real-time data
+- **PostgreSQL**: Advanced relational database with JSON support
+- **Supabase**: Open-source Firebase alternative built on PostgreSQL
+- **Firebase CLI**: CLI tool to manage and deploy Firebase projects
 
 ### Development Tools
 

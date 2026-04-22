@@ -10,6 +10,7 @@ install_databases() {
     local databases=(
         "sqlite:SQLite"
         "mysql:MySQL"
+        "postgresql@17:PostgreSQL"
         "redis:Redis"
         "supabase:Supabase"
         "firebase-cli:Firebase"
