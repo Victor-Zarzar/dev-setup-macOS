@@ -18,7 +18,7 @@ A comprehensive, modular automated setup script for macOS that helps install and
 - **Python Environment**: Pyenv, Virtualenv
 - **Flutter Tools**: FVM (Flutter Version Manager)
 - **Applications**: Zed Editor, Sublime Text, Android Studio, Discord, Notion, Rectangle, Shottr, Figma, and more
-- **VPN & Security**: ProtonVPN, Cloudflare WARP, Tunnelblick
+- **VPN & Security**: ProtonVPN, Tunnelblick
 - **Utilities**: OrbStack (Docker), OmniDiskSweeper, LocalSend
 - **Interactive Configuration**: Git username and email setup
 - **Xcode Configuration**: Automatic license acceptance and setup
@@ -139,8 +139,8 @@ The script will display an interactive menu with the following options:
 - **Browsers**: Orion
 - **Communication**: Telegram, Discord, Slack
 - **Productivity**: Notion, OnlyOffice
-- **Security**: ProtonVPN, Cloudflare WARP, Tunnelblick
-- **Utilities**: LocalSend, OrbStack (Docker), OmniDiskSweeper, CrossOver, Macs Fan Control
+- **Security**: ProtonVPN, Tunnelblick
+- **Utilities**: LocalSend, OrbStack (Docker), OmniDiskSweeper, Macs Fan Control
 
 ### Fonts
 
